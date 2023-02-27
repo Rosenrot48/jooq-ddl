@@ -23,7 +23,6 @@ public class GenerateData {
     }
 
 
-
     @PostConstruct
     public void execute() {
         var context = DSL.using(dataSource, SQLDialect.POSTGRES);
