@@ -4,7 +4,6 @@ import org.jooq.Query;
 import org.jooq.SQLDialect;
 import org.jooq.impl.DSL;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
